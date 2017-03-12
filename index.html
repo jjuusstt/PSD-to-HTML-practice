@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--BRANCH devoling responsive copy-->
 
 <head>
   <meta charset="UTF-8">
@@ -10,173 +11,192 @@
 </head>
 
 <body>
+  <div class="epty-testing-div"></div>
   <div class="wrapper container-fluid">
     <div class="row header-full-width">
       <header class="container">
-        <div class="row top-header">
-          <div class="col-md-3 navigation">
-          <span id="logo">Claymore</span>
-          </div><!--      
-       --><div class="col-md-9 navigation">
-              <ul class="nav">
-                <li>Home</li>
-                <li>About</li>
-                <li>Service</li>
-                <li>Features</li>
-                <li>Price</li>
-                <li>Contact</li>
-                <li>Login</li>
-              </ul>
+        <nav class="navbar navbar-default top-header">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+            <a class="navbar-brand" id="logo" href="#">Claymore</a>
           </div>
-        </div>
+
+          <div class="collapse navbar-collapse pull-right" id="main-nav">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Price</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </div>
+        </nav>
         <div class="row bottom-header">
-          <div class="col-md-7">
-            <img src="img/tablet.png" alt="tablet">
+          <div class="col-xs-12 col-xs-offset-3 col-sm-12 col-sm-offset-3 col-md-6 col-md-offset-0">
+            <img class="sm-image-tablet" src="img/tablet.png" alt="tablet">
           </div>
-          <div class="col-md-5">
-              <h3>Quam eleifend metus commodo</h3>
-              <p>uctus at sit amet urna. Quisque non augue tincidunt, egest as massa non, elementum sem. Suspendisse mollis nulla eu lorem ultricies dapibus.</p>
-              <div class="buttons">
-                <div class="button">Purchase now</div>
-                <div class="circle">or</div>
-                <div class="button">Learn More</div>
+          <div class="col-md-5 col-md-offset-1">
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-12 col-md-offset-0 text-center-md">
+                <h3>Quam eleifend metus commodo</h3>
+                <p>uctus at sit amet urna. Quisque non augue tincidunt, egest as massa non, elementum sem. Suspendisse mollis
+                  nulla eu lorem ultricies dapibus.</p>
               </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-12 col-md-offset-0 text-center-md">
+                <div class="buttons">
+                  <div class="button">Purchase now</div>
+                  <div class="circle">or</div>
+                  <div class="button">Learn More</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </header>
     </div>
-      <div class="row about">
-        <div class="container">
-          <div class="col-md-8">
-            <h4>About us</h4>
-            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam. Donec hendrerit neque sit amet tellus ornare et semper lorem lacinia. Suspendisse ac pellentesque odio. Nunc pharetra malesuada nisi ac condimentum. Curabitur porttitor pulvinar </p>
-          </div>
-          <div class="col-md-4 stats">
-            <div class="pull-right">
-              <img src="img/statistics.png" alt="statistics">
-              <img src="img/statistics-small.png" alt="statistics" id="smallstatistics">
-            </div>
+    <div class="row about">
+      <div class="container">
+        <div class="col-xs-12 col-sm-6 col-md-8 text-center-xs text-center-sm">
+          <h4>About us</h4>
+          <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam. Donec hendrerit neque
+            sit amet tellus ornare et semper lorem lacinia. Suspendisse ac pellentesque odio. Nunc pharetra malesuada nisi
+            ac condimentum. Curabitur porttitor pulvinar </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 stats">
+          <div class="col-sm-12 col-sm-offset-3 col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-3 text-center-xs text-center-sm">
+            <img src="img/statistics.png" alt="statistics">
+            <img src="img/statistics-small.png" alt="statistics" id="smallstatistics">
           </div>
         </div>
+      </div>
     </div>
-    <div class="row">
-      <div class="container" id="services">
-        <div class="services">
-          <img src="img/first-service.png" alt="first-service">
-          <h5>Fully Baked up</h5>
-          <p>Curabitur tincidunt dapibus odio, eu gravida felis blandit vel. Vivamus feugiat auctor lorem non eleifend. Nam eu pellentesque est, vitae interdum nisi.</p>
+    <div class="container" id="services">
+      <div class="row">
+        <div class="services col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+          <div class="inner-services">
+            <img src="img/first-service.png" alt="first-service">
+            <h5>Fully Baked up</h5>
+            <p>Curabitur tincidunt dapibus odio, eu gravida felis blandit vel. Vivamus feugiat auctor lorem non eleifend. Nam
+              eu pellentesque est, vitae interdum nisi.</p>
+          </div>
         </div>
-        <div class="services">
-          <img src="img/second-service.png" alt="second-service">
-          <h5>Build With Love</h5>
-          <p>Nullam dignissim felis diam, sed ultricies nisl ultricies quis. Maecenas feugiat urna ante, et viverra tellus facilisis ut. In hac habitasse platea dictumst.</p>
+        <div class="services col-xs-8 col-xs-offset-2 services col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+          <div class="inner-services">
+            <img src="img/second-service.png" alt="second-service">
+            <h5>Build With Love</h5>
+            <p>Nullam dignissim felis diam, sed ultricies nisl ultricies quis. Maecenas feugiat urna ante, et viverra tellus
+              facilisis ut. In hac habitasse platea dictumst.</p>
+          </div>
         </div>
-        <div class="services">
-          <img src="img/third-service.png" alt="third-service">
-          <h5>Fully Responnsive</h5>
-          <p>Aliquam mattis massa at urna tincidunt ultrices. Curabitur lobortis ante vulputate, imperdiet felis a, adipiscing odio aliquam pharetra molestie mauris</p>
+        <div class="services col-xs-8 col-xs-offset-2 services col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+          <div class="inner-services">
+            <img src="img/third-service.png" alt="third-service">
+            <h5>Fully Responnsive</h5>
+            <p>Aliquam mattis massa at urna tincidunt ultrices. Curabitur lobortis ante vulputate, imperdiet felis a, adipiscing
+              odio aliquam pharetra molestie mauris</p>
+          </div>
         </div>
-         <span class="stretch"></span>
       </div>
     </div>
     <div class="row features">
       <div class="container features-container">
         <h3>Lorem ipsum dolor sit amet</h3>
         <p>consectetur adipiscing elit. Maecenas facilisis ligula non ornare vehicula.</p>
-        <div class="arrows">
-          <img src="img/arrow_left.png" alt="arrow-left">
+        <div class="arrows col-xs-1 col-sm-1 col-md-1">
+          <img class="sm-image" src="img/arrow_left.png" alt="arrow-left">
         </div>
-        <div class="macbook">
-          <img src="img/macbook.png" alt="arrow-left">
+        <div class="macbook col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-1">
+          <img class="sm-image" src="img/macbook.png" alt="arrow-left">
         </div>
-        <div class="arrows">
-          <img src="img/arrow_right.png" alt="arrow-left">
+        <div class="arrows col-xs-1 col-sm-1 col-md-1 col-md-offset-1">
+          <img class="sm-image" src="img/arrow_right.png" alt="arrow-left">
         </div>
-        <span class="stretch"></span>
       </div>
     </div>
     <div class="row">
       <h2>What people say</h2>
       <div class="container">
-        <div class="opinions-col-1">
-          <div class="opinions">
-            <img src="img/shape.png" alt="shape">
-            <h4>Excepteur sint occaecat</h4>
-            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
-          </div>
-          <div class="opinions">
-            <img src="img/shape.png" alt="shape">
-            <h4>Excepteur sint occaecat</h4>
-            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
-          </div>
-          <div class="opinions">
-            <img src="img/shape.png" alt="shape">
-            <h4>Excepteur sint occaecat</h4>
-            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
-          </div>
+        <div class="opinions clearfix col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-0 col-md-6 ">
+          <img class="sm-image-shape" src="img/shape.png" alt="shape">
+          <h4>Excepteur sint occaecat</h4>
+          <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
         </div>
-        <div class="opinions-col-2">
-          <div class="opinions">
-            <img src="img/shape.png" alt="shape">
-            <h4>Excepteur sint occaecat</h4>
-            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
-          </div>
-          <div class="opinions">
-            <img src="img/shape.png" alt="shape">
-            <h4>Excepteur sint occaecat</h4>
-            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
-          </div>
-          <div class="opinions">
-            <img src="img/shape.png" alt="shape">
-            <h4>Excepteur sint occaecat</h4>
-            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
-          </div>
+        <div class="opinions clearfix col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-0 col-md-6 ">
+          <img class="sm-image-shape" src="img/shape.png" alt="shape">
+          <h4>Excepteur sint occaecat</h4>
+          <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+        </div>
+        <div class="opinions clearfix col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-0 col-md-6 ">
+          <img class="sm-image-shape" src="img/shape.png" alt="shape">
+          <h4>Excepteur sint occaecat</h4>
+          <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+        </div>
+
+        <div class="opinions clearfix col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-0 col-md-6 ">
+          <img class="sm-image-shape" src="img/shape.png" alt="shape">
+          <h4>Excepteur sint occaecat</h4>
+          <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+        </div>
+        <div class="opinions clearfix col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-0 col-md-6 ">
+          <img class="sm-image-shape" src="img/shape.png" alt="shape">
+          <h4>Excepteur sint occaecat</h4>
+          <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+        </div>
+        <div class="opinions clearfix col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-0 col-md-6 ">
+          <img class="sm-image-shape" src="img/shape.png" alt="shape">
+          <h4>Excepteur sint occaecat</h4>
+          <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
         </div>
       </div>
     </div>
     <div class="row contact">
       <div class="container">
         <div class="row">
-        <div class="col-md-6 contacts">
-          <h4>Curabitur ornare neque</h4>
-          <p>id sagittis commodo. Vivamus rhoncus feugiat leo id dictum. Nulla 
-  fermentum nibh eu velit molestie ultricies. Curabitur non gravida urna, 
-  at varius tortor. Donec feugiat, nisl ultrices adipiscing pharetra, augue 
-  lorem pharetra tortor, non tincidunt urna diam in libero. Nam et neque 
-  ut nisi consectetur tempor. Maecenas gravida est eu nisi dignissim 
-  gravida. Proin mollis sodales ullamcorper.</p>
-          <span><i class="fa fa-map-marker" aria-hidden="true"></i>venenatis neque sit amet ante aliquam sollicitudin</span>
-          <span><i class="fa fa-phone" aria-hidden="true"></i>0888-7738-21   /   0977-333-222-111</span>
-          <span><i class="fa fa-envelope" aria-hidden="true"></i>parturient@montes.com</span>
-        </div>
-        <div class="col-md-6">
-          <form>
-            <div class="form-group row">
-              <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="your name">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0 contacts">
+            <h4>Curabitur ornare neque</h4>
+            <p>id sagittis commodo. Vivamus rhoncus feugiat leo id dictum. Nulla fermentum nibh eu velit molestie ultricies.
+              Curabitur non gravida urna, at varius tortor. Donec feugiat, nisl ultrices adipiscing pharetra, augue lorem
+              pharetra tortor, non tincidunt urna diam in libero. Nam et neque ut nisi consectetur tempor. Maecenas gravida
+              est eu nisi dignissim gravida. Proin mollis sodales ullamcorper.</p>
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i>venenatis neque sit amet ante aliquam sollicitudin</span>
+            <span><i class="fa fa-phone" aria-hidden="true"></i>0888-7738-21   /   0977-333-222-111</span>
+            <span><i class="fa fa-envelope" aria-hidden="true"></i>parturient@montes.com</span>
+          </div>
+          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
+            <form>
+              <div class="form-group row">
+                <div class="col-md-6 nameandmail">
+                  <input type="text" class="form-control" placeholder="your name">
+                </div>
+                <div class="col-md-6 nameandmail">
+                  <input type="email" class="form-control" placeholder="your email">
+                </div>
               </div>
-              <div class="col-md-6">
-                <input type="email" class="form-control pull-right" placeholder="your email">
+              <div class="form-group row">
+                <div class="styleSelect">
+                    <select class="form-control" id="exampleSelect1">
+                      <option>your subject</option>
+                      <option>your subject 2</option>
+                      <option>your subject 3</option>
+                    </select>
+                </div>
               </div>
-            </div>
-            <div class="form-group row">
-              <div class="styleSelect">
-                <select class="form-control" id="exampleSelect1">
-                  <option>your subject</option>
-                  <option>your subject 2</option>
-                  <option>your subject 3</option>
-                </select>
+              <div class="form-group row">
+                <textarea class="form-control" rows="7" placeholder="your message"></textarea>
               </div>
-            </div>
-            <div class="form-group row">
-              <textarea class="form-control" rows="7" placeholder="your message"></textarea>
-            </div>
-            <div class="pull-right row">
-              <input class="buttonReset" type="reset" value="Reset">
-              <input class="buttonSubmit" type="submit" value="Submit">
-            </div>
-          </form>
-        </div>
+              <div class="pull-right row">
+                <input class="buttonReset" type="reset" value="Reset">
+                <input class="buttonSubmit" type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -189,4 +209,5 @@
   <script src="vendor/jquery/jquery-3.1.1.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
